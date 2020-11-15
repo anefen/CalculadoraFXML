@@ -17,7 +17,7 @@ public class Controller implements Initializable {
 
 	public Controller() throws IOException {
 
-		FXMLLoader loader = new FXMLLoader(getClass().getResource("viewFXML.fxml"));
+		FXMLLoader loader = new FXMLLoader(getClass().getResource("/viewFXML.fxml"));
 		loader.setController(this);
 		loader.load();
 	}
